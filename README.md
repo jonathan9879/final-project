@@ -4,13 +4,11 @@
 ## Overview
 This project is an analysis on personal spending over the years, with the wish of improving in the future. Using personal banking data, statistics, and if necessary ML predictions, the goal of this project is to have a clear view of bad financial habits (if there are any), how they can negatively affect me without a change and what changes I can make to improve my spending habits.
 
-My main hypothesis is that the transactions will be normally distributed:
-- Null hypothesis (H0) = The independant variable (transaction amount) of my data (sample of personal transactions) will not be normally distributed.
-- Hypothesis (H1) = The independant variable (transaction amount) of my data (sample of personal transactions) will be normally distributed.
-- H0 = There isn't a correlation between certain words I send as messages to my girlfriend and the amount I spend.
-- H1 = There is a correlation between certain words I send as messages to my girlfriend and the amount I spend.
+The main hypothesis is that the transactions will be normally distributed:
+- Null hypothesis (H0) = The independant variable (transaction amount) of the data (sample of personal transactions) will not be normally distributed.
+- Hypothesis (H1) = The independant variable (transaction amount) of the data (sample of personal transactions) will be normally distributed.
 
-To test my hypothesis I will use the cientific python library scipy. Specifically the normal test function based on Ralph D'Agostinos and E. S. Pearsons "Biometrika" journal article. Here are the references:
+To test this hypothesis the cientific python library "scipy" will be used. Specifically the normal test function based on Ralph D'Agostinos and E. S. Pearsons "Biometrika" journal article. Here are the references:
 - D’Agostino, R. B. (1971), “An omnibus test of normality for moderate and large sample size”, Biometrika, 58, 341-348
 - D’Agostino, R. and Pearson, E. S. (1973), “Tests for departure from normality”, Biometrika, 60, 613-622
 
