@@ -1,8 +1,6 @@
 # How can I improve my spending habits? 
 ### By Jessie Lee Delgadillo Newman // Data Analysis Full Time Cohort - February 2019
 
-### Data Analysis Full Time Cohort - February 2019
-
 ## Overview
 This project is an analysis on personal spending over the years, with the wish of improving in the future. Using personal banking data, statistics, and if necessary ML predictions, the goal of this project is to have a clear view of bad financial habits (if there are any), how they can negatively affect me without a change and what changes I can make to improve my spending habits.
 
