@@ -20,6 +20,8 @@ The function will return a p-value that is interpreted against an alpha (in this
 The dataset comes from the oficial "La Caixa" website. When a user is in it's personal account, he/she can download immediatly a certain amount of transactions in XML format. This is what has been done for this project.
 After downloading the dataset, which amounts for a total of 720 entries ranging from 26/07/2017 to 17/04/2019, it was converted to csv using Excel. 
 
+The data was cleaned. Tasks included are: removing attributes that were considered "not useful", converting to better types to work with, deal with NaN values and rename to more descriptive column names.
+
 The attributes/columns are as follow, all imported as strings except "Oficina", "Concepto comun" and "Concepto propio":
 - Numero de cuenta
 - Oficina
@@ -36,6 +38,14 @@ The attributes/columns are as follow, all imported as strings except "Oficina", 
 - Referencia 2
 - Concepto complementario 1
 - Concepto complementario 2
+
+## Conclusions
+After doing an Exploratory Data Analysis some key insights include:
+- There is a clear negative trend in total balance.
+- Sum of expenses and incomes per quaerter goes in cycles. One quarter there is a heavy positive trend, the next quarter there is a heavy negative trend.
+- Expenses are heavily centralised and in most cases fluctuate between 5 and 15 euros.
+- Expenses involving restaurants are bigger than expenses involving supermarkets. Steps to undo this trend are necessary.
+- A proof of concept chatbot was finished and seems useful to better inform oneself of the current financial situation.
 
 Technologies used for this project include: Python, Pandas, Matplotlib, Tableau, Google SQL database, DialogFlow, Google Actions, Flask, Ngrok, Jupyter Lab.
 
